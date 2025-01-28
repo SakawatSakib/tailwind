@@ -33,22 +33,28 @@
     <main class="border border-2 border-blue-500 max-w-screen-xl px-16 lg:px-28 mx-auto">
         <header class="flex pt-10 mb-20 ">
             <div class="">
-                <h1>
+                <h1 class="text-5xl md:text-7xl">
                     It's good <br>tea time at the <br>Tea House
                 </h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, commodi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, tempora.</p>
-                <button>Explore More<i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                <br>
+                <p class="text-gray-500 w-3/4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, commodi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, tempora.</p>
+                <br>
+                <button class=" bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 my-2 rounded-lg text-white font-bold"> Explore More <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></button>
 
             </div>
-            <div class="">
+            <!-- image content  -->
+            <div class="relative">
                 <!-- image  -->
-                 <div><img src="../images/banner.png" alt="" srcset=""></div>
+                 <div>
+                    <img  class="w-full" src="../images/banner.png" alt="" srcset="">
+                </div>
                  <!-- card  -->
-                  <div class="flex items-center bg-white shadow-lg px-2 py-2 md:px-10">
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div>
-                        <h2>5.00</h2>
-                        <p>Trust Pilot Rating</p>
+                  <div class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-32 lg:left-10 lg:top-60">
+                   <!-- icon  -->
+                    <div><i class="fa-solid fa-star text-2xl text-amber-500"></i></div>
+                    <div class="ml-2">
+                        <h2 class="lg:text-2xl font-bold">5.00</h2>
+                        <p class="text-gray-500">Trust Pilot Rating</p>
                     </div>
                   </div>
 
